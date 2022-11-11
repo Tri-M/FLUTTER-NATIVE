@@ -30,7 +30,7 @@ public class MainActivity extends FlutterActivity {
             if (batteryLevel != -1) {
               result.success(batteryLevel);
             } else {
-              result.error("UNAVAILABLE", "Could not fetch battery level.", null);
+              result.error("UNAVAILABLE", "Could not fetch battery level :(", null);
             }
           } else {
             result.notImplemented();
